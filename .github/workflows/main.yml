@@ -1,4 +1,4 @@
-name: Build and Deploy Vite to cPanel
+name: Build and Deploy to cPanel
 
 on:
   push:
@@ -20,25 +20,20 @@ jobs:
           extensions: mbstring, bcmath, openssl, pdo, tokenizer, xml
           tools: composer
 
-      - name: 🟢 Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
-
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'pnpm'
+          cache: 'npm'
 
       - name: 📦 Install PHP dependencies
         run: composer install --no-dev --prefer-dist --no-interaction
 
       - name: 📦 Install Node dependencies
-        run: pnpm install
+        run: npm install
 
-      - name: ⚒️ Build Vite project
-        run: pnpm run build
+      - name: ⚒️ Build Assets
+        run: npm run build
 
       - name: 🚀 Upload dist to cPanel via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
