@@ -32,9 +32,6 @@ jobs:
       - name: 📦 Install Node dependencies
         run: npm install
 
-      - name: ⚒️ Build Assets
-        run: npm run build
-
       - name: 🚀 Upload dist to cPanel via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
