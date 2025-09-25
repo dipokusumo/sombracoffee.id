@@ -1,0 +1,176 @@
+.containerz .cardz {
+    position: relative;
+    max-width : 300px;
+    height : 215px;
+    margin : 30px 40px;
+
+    display : flex;
+    flex-direction : column;
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .containerz .cardz:hover {
+    height : 320px;
+  }
+
+
+  .containerz .cardz .imagez {
+    position : relative;
+
+
+    top : -20%;
+    z-index : 1;
+  }
+
+  .containerz .cardz .imagez img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+
+  .containerz .cardz .contentz {
+    position : relative;
+    top : -160px;
+    padding-top: 15px;
+    color : black;
+    text-align : justify;
+
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+
+  }
+
+  .containerz .cardz:hover .contentz {
+     margin-top : 90px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+
+  }
+
+  /* PRODUCT LIST */
+
+  .submitR{
+    position: relative;
+    left: 0px;
+    top: 50px;
+    border-style: solid;
+    border-left-color: red;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    border-bottom-color: #ffffff00;
+    padding-left: 10px;
+    padding-bottom: 30px;
+  }
+
+  .gbdesc {
+    margin-left: 0px;
+    border-style: solid;
+    border-left-color: red;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    border-bottom-color: #ffffff00;
+    padding-left: 10px; margin-top: 30px;
+    text-align: justify;
+  }
+
+  .rdesc {
+    margin-left: 0px;
+    border-style: solid;
+    border-left-color: red;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    border-bottom-color: #ffffff00;
+    padding-left: 10px;
+    text-align: justify;
+  }
+
+  .submitG {
+    position: relative;
+    left: 0px;
+    top: 50px;
+    border-style: solid;
+    border-left-color: red;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    border-bottom-color: #ffffff00;
+    padding-left: 10px;
+    padding-bottom: 60px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+    .submitR{
+        position: relative;
+        left: 0px;
+        top: 50px;
+        border-style: solid;
+        border-left-color: red;
+        border-right-color: #ffffff00;
+        border-top-color: #ffffff00;
+        border-bottom-color: #ffffff00;
+        padding-left: 10px;
+        padding-bottom: 30px;
+        }
+
+      .submitG{
+        position: relative;
+        left: 0px;
+        top: 50px;
+        border-style: solid;
+        border-left-color: red;
+        border-right-color: #ffffff00;
+        border-top-color: #ffffff00;
+        border-bottom-color: #ffffff00;
+        padding-left: 10px;
+        padding-bottom: 60px;
+    }
+
+    .gbdesc {
+        margin-left: 0px;
+        border-style: solid;
+        border-left-color: red;
+        border-right-color: #ffffff00;
+        border-top-color: #ffffff00;
+        border-bottom-color: #ffffff00;
+        padding-left: 10px;
+        margin-top: 30px;
+        text-align: justify;
+      }
+
+      .rdesc {
+        margin-left: 0px;
+        border-style: solid;
+        border-left-color: red;
+        border-right-color: #ffffff00;
+        border-top-color: #ffffff00;
+        border-bottom-color: #ffffff00;
+        padding-left: 10px;
+        text-align: justify;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+{
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+ {
+
+}

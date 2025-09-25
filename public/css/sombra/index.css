@@ -1,0 +1,306 @@
+.sombraicon{
+    width: 160px;
+    height: auto;
+}
+
+/* Whatsapp */
+.box {
+    position: relative;
+}
+
+.input {
+    padding: 10px;
+    width: 70px;
+    height: 35px;
+    border: 2px solid #ffffff00;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    transition: .5s;
+}
+
+.box:hover input {
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.box i {
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: #ffd52d;
+    transition: .2s;
+}
+
+/*  Whatsapp ## */
+
+
+/* .box:hover i {
+    opacity: 0;
+    z-index: -1;
+} */
+
+.float {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+.navPadding{
+    background: white;
+    padding: 10px 20px 30px 40px;
+}
+
+.navCenter{
+    padding-right: 15px;
+}
+
+.fontAlatsi{
+    font-family: 'Alatsi', sans-serif;
+}
+
+.fontAlatsiB{
+    font-family: 'Alatsi', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.navitemPR5pxPT10px{
+    padding-right: 5px; padding-top: 10px;
+}
+
+.searchWidth20px{
+    width: 20px;
+}
+
+.PR5px{
+    padding-right: 5px
+}
+
+.width24px{
+    width: 24px;
+}
+
+.width25px{
+    width: 25px;
+}
+
+.width30px{
+    width: 30px;
+}
+
+.navitemPL10px{
+    padding-left: 10px;
+}
+
+.garisPembatasTebal{
+    width: 2px;
+    height : 50px;
+    background : black;
+}
+
+.copyright{
+    font-size: 9.3px;
+    position: relative;
+    bottom: 0px;
+    right: 680px;
+}
+
+.decorationN{
+    color: black;
+    text-decoration: none;
+}
+
+.fWA{
+    position: relative;
+    top: 3px;
+    left: 0.8px;
+}
+
+.PR5px{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+ li {
+    list-style:none;
+    background-image:none;
+    background-repeat:none;
+    background-position:0;
+}
+
+
+.pdTop{
+    padding-top: 0px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+    .navPadding{
+        background: white;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .sombraicon{
+        width: 120px;
+        height: auto;
+    }
+
+    /* NAVBAR */
+
+    .navIconDisplayContent{
+        display: contents;
+    }
+
+    .box{
+        position: relative;
+        width: 140px;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+
+    .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 20px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+    }
+
+    .PR5px{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .pdTop{
+        padding-top: 12px;
+    }
+
+    .offset-1 {
+        margin-left: 0px;
+        padding-top: 20px;;
+    }
+
+    /* Bagian Appsombra Layouts Copyright */
+
+    .copyright{
+        font-size: 10.3px;
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+
+    .float {
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:20px;
+        right:20px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index:100;
+    }
+
+    .navitemPL10px{
+        padding-left: 30px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{
+    .navPadding{
+        background: white;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .sombraicon{
+        width: 120px;
+        height: auto;
+    }
+
+    .PR5px{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+{
+    .navPadding{
+        background: white;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .sombraicon{
+        width: 120px;
+        height: auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+    .navPadding{
+        background: white;
+        padding: 10px 20px 30px 40px;
+    }
+
+    .sombraicon{
+        width: 160px;
+        height: auto;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{
+    .navPadding{
+        background: white;
+        padding: 10px 20px 30px 40px;
+    }
+
+    .sombraicon{
+        width: 160px;
+        height: auto;
+    }
+
+    .PR5px{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
