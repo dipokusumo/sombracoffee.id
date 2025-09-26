@@ -32,12 +32,15 @@ jobs:
       - name: 📦 Install Node dependencies
         run: npm install
 
+      - name: 🏗️ Build assets
+        run: npm run prod
+
       - name: 🚀 Upload dist to cPanel via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: public/build/
-          server-dir: repositories/sombrecoffee.id/public/build/
+          local-dir: ./public/
+          server-dir: repositories/sombrecoffee.id
           dangerous-clean-slate: true
